@@ -18,6 +18,7 @@ if __name__ == "__main__":
             print("\nOperaciones disponibles:")
             print("1. Suma")
             print("2. Resta")
+            print("4. División")
 
             operacion = input("Seleccione una operación (1/2/3/4): ")
 
@@ -28,5 +29,7 @@ if __name__ == "__main__":
                 print("Resultado: ", calculadora.suma(num1, num2))
             elif operacion == '2':
                 print("Resultado: ", calculadora.resta(num1, num2))
+            elif operacion == '4':
+                print("Resultado: ", calculadora.division(num1, num2))
             else:
                 print("Operación no válida. Intente nuevamente.")
