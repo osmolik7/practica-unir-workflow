@@ -5,6 +5,9 @@ def suma(a, b):
 def resta(a, b):
     return a - b
 
+def multiplicacion(a, b):
+    return a * b
+
 # Programa principal
 if __name__ == "__main__":
     print("Calculadora Simple")
@@ -12,11 +15,12 @@ if __name__ == "__main__":
         print("\nOpciones:")
         print("1. Suma")
         print("2. Resta")
-        print("3. Salir")
+        print("3. Multiplicar")
+        print("4. Salir")
 
-        opcion = input("Seleccione una opción (1/2/3): ")
+        opcion = input("Seleccione una opción (1/2/3/4): ")
 
-        if opcion == '3':
+        if opcion == '4':
             print("¡Hasta luego!")
             break
 
@@ -27,5 +31,7 @@ if __name__ == "__main__":
             print("Resultado: ", suma(num1, num2))
         elif opcion == '2':
             print("Resultado: ", resta(num1, num2))
+        elif opcion == '3':
+            print("Resultado: ", multiplicacion(num1, num2))
         else:
             print("Opción no válida. Intente nuevamente.")
