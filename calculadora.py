@@ -15,7 +15,7 @@ if __name__ == "__main__":
         print("\nOpciones:")
         print("1. Suma")
         print("2. Resta")
-        print("4. Divicion")
+        print("4. División")
         print("5. Salir")
 
         opcion = input("Seleccione una opción (1/2/3): ")
