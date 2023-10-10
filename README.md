@@ -36,3 +36,4 @@ Para ejecutar el archivo main.py, simplemente escribe el siguiente comando y pre
    ```bash
    python main.py
 ¡Eso es todo! Ahora deberías poder ejecutar tus archivos Python en Windows desde la línea de comandos. Asegúrate de tener Python instalado y de que estás en el directorio correcto antes de ejecutar los comandos.
+
