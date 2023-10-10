@@ -4,9 +4,13 @@ def suma(a, b):
 
 def resta(a, b):
     return a - b
-
+  
 def multiplicacion(a, b):
     return a * b
+  
+def division(a, b):
+    return a // b
+
 
 # Programa principal
 if __name__ == "__main__":
@@ -16,11 +20,12 @@ if __name__ == "__main__":
         print("1. Suma")
         print("2. Resta")
         print("3. Multiplicar")
-        print("4. Salir")
+        print("4. División")
+        print("5. Salir")
 
-        opcion = input("Seleccione una opción (1/2/3/4): ")
+        opcion = input("Seleccione una opción (1/2/3/4/5): ")
 
-        if opcion == '4':
+        if opcion == '5':
             print("¡Hasta luego!")
             break
 
@@ -33,5 +38,7 @@ if __name__ == "__main__":
             print("Resultado: ", resta(num1, num2))
         elif opcion == '3':
             print("Resultado: ", multiplicacion(num1, num2))
+        elif opcion == '4':
+            print("Resultado: ", division(num1, num2))
         else:
             print("Opción no válida. Intente nuevamente.")

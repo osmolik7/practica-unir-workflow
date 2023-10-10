@@ -19,9 +19,8 @@ if __name__ == "__main__":
             print("1. Suma")
             print("2. Resta")
             print("3. Multiplicación")
-
+            print("4. División")
             operacion = input("Seleccione una operación (1/2/3/4): ")
-
             num1 = float(input("Ingrese el primer número: "))
             num2 = float(input("Ingrese el segundo número: "))
 
@@ -31,5 +30,7 @@ if __name__ == "__main__":
                 print("Resultado: ", calculadora.resta(num1, num2))
             elif operacion == '3':
                 print("Resultado: ", calculadora.multiplicacion(num1, num2))
+            elif operacion == '4':
+                print("Resultado: ", calculadora.division(num1, num2))
             else:
                 print("Operación no válida. Intente nuevamente.")
